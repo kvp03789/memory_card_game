@@ -1,13 +1,72 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  font-family: 'Lexend Tera', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App {
+  background-image: url('./images/starcraft_wallpaper.jpg');
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.logo-container{
+  background-color: rgba(61, 61, 61, 0.52);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header{
+  color: rgb(255, 255, 255);
+  height: 300px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Lexend Tera', sans-serif;
+  font-weight: 200;
+}
+
+.header img {
+  width: 75%;
+  height: auto;
+}
+
+.card-container {
+  width: 100vw;
+  height: 1000px;
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+  padding: 50px;
+}
+
+.card {
+  width: 200px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-image-container{
+  height: 75%;
+  width: 100%;
+  background-color: rgba(181, 181, 181, 0.792);
+}
+
+.card-name-container{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  width: 100%;
+  height: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.unit-image {
+  width: 175px;
+  height: auto;
 }
