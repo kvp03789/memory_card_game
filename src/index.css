@@ -70,3 +70,11 @@
   width: 175px;
   height: auto;
 }
+
+.score{
+  font-size: 2rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

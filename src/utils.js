@@ -1,4 +1,4 @@
-const shuffleArray = function(arr) {
+export const shuffleArray = function(arr) {
     for(let i = arr.length - 1; i > 0; i--){
         let j = Math.floor(Math.random() * (i + 1));
         let temp = arr[i];
@@ -8,4 +8,12 @@ const shuffleArray = function(arr) {
     return arr;
 }
 
-export default shuffleArray
+export const containsUnit = function(obj, arr){
+    for (let i = 0; i < arr.length; i++){
+        if(arr[i] === obj){
+            return true
+        }
+    }
+    return false;
+}
+
